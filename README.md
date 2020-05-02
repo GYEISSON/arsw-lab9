@@ -63,9 +63,23 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 
-  Es necesario crear una Storage Account ya que ésta permite almacenar archivos, colas, tablas entre otros; los cuales son accesibles desde internet. Las functions Apps necesitan almacenar distintos datos como entradas, salidas y  logs en un espacio determinado el cual es proporcionado por el storage account. 
+  Es necesario crear una Storage Account ya que ésta permite almacenar archivos, colas, tablas entre otros; los cuales son accesibles desde internet. Las functions Apps necesitan almacenar distintos datos como entradas, salidas y  logs en un espacio determinado el cual es proporcionado por el storage account.
 
-* ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+* ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.  
+
+  1. Plan de consumo : Azure proporciona todos los recursos computacionales necesarios. No tiene que preocuparse por la administración  
+   de recursos, y solo paga por el tiempo que se  ejecuta su código.
+
+  4. Plan premium : especifica una cantidad de instancias precalentadas que siempre están en línea y listas para responder de inmediato.  
+   Cuando se ejecuta su función, Azure proporciona los recursos computacionales adicionales que se necesitan. Paga por las instancias  
+   precalentadas que se ejecutan continuamente y cualquier instancia adicional que use como Azure escala su aplicación dentro y fuera.
+
+  3. Plan de App Service : ejecute sus funciones al igual que sus aplicaciones web. Si usa App Service para sus otras aplicaciones,  
+  sus funciones pueden ejecutarse en el mismo plan sin costo adicional.
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
+
+  
+
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
